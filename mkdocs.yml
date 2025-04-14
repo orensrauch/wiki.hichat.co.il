@@ -1,0 +1,21 @@
+site_name: wiki
+theme:
+  name: material
+  language: he
+  logo: images/logo.png
+  favicon: images/favicon.png 
+  custom_dir: overrides
+
+extra_css:
+  - stylesheets/rtl_custom_style.css
+
+nav:
+  - דף הבית: index.md
+  - אודות: about.md
+  - שאלות נפוצות: faq.md
+  - התחלה מהירה:
+      - מבוא: getting-started/intro.md
+      - הגדרה: getting-started/setup.md
+  - תכונות:
+      - סקירה כללית: features/overview.md
+      - אינטגרציות: features/integrations.md
